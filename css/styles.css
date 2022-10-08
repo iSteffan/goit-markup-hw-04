@@ -249,19 +249,16 @@ img {
 }
 
 /* ----------------------------------------Index.html---------------------------------------- */
-.main-section {
+.main-section.section {
   margin: 0 auto;
 
   max-width: 1600px;
   height: 600px;
-  background-image: url(../img/background-image-hero.jpg);
-}
-linear-gradient(center, rgba(47, 48, 58, 0.4)),
-.main-section.section {
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
-  background: var(--background-color-secondary);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/background-image-hero.jpg);
 }
 
 .main-title {
