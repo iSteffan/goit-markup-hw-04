@@ -136,6 +136,7 @@ img {
 .contacts-list-item + .contacts-list-item {
   margin-left: 30px;
 }
+
 /* ----------------------------------------Хедер іконки---------------------------------------- */
 .contacts-list-link:focus > .envelope {
   fill: var(--accent-color);
@@ -147,10 +148,9 @@ img {
 .envelope {
   margin-right: 10px;
 
-  fill: #757575;
-  /* afill: #757575;lign-items: center; */
   width: 16px;
   height: 16px;
+  fill: #757575;
 }
 
 .smartphone {
@@ -159,11 +159,6 @@ img {
   width: 10px;
   height: 16px;
   fill: #757575;
-}
-
-.smartphone > use {
-  width: 10px;
-  height: 16px;
 }
 
 .contacts-list-link:focus > .smartphone {
