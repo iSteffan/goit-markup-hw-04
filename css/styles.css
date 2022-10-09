@@ -306,6 +306,25 @@ img {
   color: var(--text-color-secondary);
 }
 
+.icon {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon {
+  /* width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background: #f5f4fa;
+  border-radius: 4px; */
+  /* padding: 25px 100px; */
+}
+
 .secondary-title {
   margin-bottom: 50px;
 
