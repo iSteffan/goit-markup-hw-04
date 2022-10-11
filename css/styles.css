@@ -465,14 +465,24 @@ img {
 
 .client-list {
   display: flex;
+  gap: 30px;
   list-style: none;
 }
 
-.icon-client {
-  padding: 16px 32px;
+.client-list-item {
+  width: calc((100% - 150px) / 6);
+  outline: 1px solid blue;
+}
 
-  width: 170px;
-  height: 92px;
+.client-list-link {
+  padding: 16px 32px;
+  outline: 1px solid tomato;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.icon-client {
+  display: block;
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
