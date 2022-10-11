@@ -306,6 +306,10 @@ img {
   border-radius: 50%;
 }
 
+.join-list-item > a > svg {
+  fill: #ffffff;
+}
+
 .join-list-item > a:hover {
   background-color: var(--accent-color);
 }
@@ -447,7 +451,7 @@ img {
 
 .member-list-description {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .member-list-item {
@@ -463,9 +467,19 @@ img {
   margin-right: 30px;
 }
 
+.social-link-list {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 10px;
+  justify-content: center;
+
+  list-style: none;
+}
+
 .client-list {
   display: flex;
   gap: 30px;
+
   list-style: none;
 }
 
@@ -483,6 +497,26 @@ img {
 
 .icon-client {
   display: block;
+}
+
+.icon-social-link {
+  fill: #afb1b8;
+}
+
+.social-link {
+  display: block;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-link:hover {
+  background-color: var(--accent-color);
+}
+
+.social-link:hover > .icon-social-link {
+  fill: #ffffff;
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
