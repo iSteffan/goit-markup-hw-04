@@ -342,7 +342,7 @@ img {
   color: var(--text-color-secondary);
 }
 
-.icon {
+.icon-advantage {
   width: 270px;
   height: 120px;
   padding: 25px 100px;
@@ -420,6 +420,18 @@ img {
 
 .member-list-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.client-list {
+  display: flex;
+  list-style: none;
+}
+
+.icon-client {
+  padding: 16px 32px;
+
+  width: 170px;
+  height: 92px;
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
