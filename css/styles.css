@@ -50,7 +50,7 @@ img {
 
 /* ----------------------------------------Хедер---------------------------------------- */
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header > .container {
@@ -170,6 +170,22 @@ img {
   fill: var(--accent-color);
 }
 /* --------------------------------Index іконки-------------------------------- */
+.icon-advantage-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon-advantage {
+  width: 70px;
+  height: 70px;
+}
+
 .social-link-list {
   display: flex;
   margin-bottom: 30px;
@@ -187,13 +203,11 @@ img {
 }
 
 .client-list-item {
-  display: flex;
-  justify-content: center;
+  width: calc((100% - 150px) / 6);
 }
 
 .client-list-link:hover,
 .client-list-link:focus {
-  outline: none;
   border: 1px solid var(--accent-color);
 }
 
@@ -203,16 +217,16 @@ img {
 }
 
 .client-list-link {
-  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .icon-client {
-  display: block;
-  margin: 0 auto;
   fill: #afb1b8;
 }
 
@@ -221,8 +235,10 @@ img {
 }
 
 .social-link {
-  display: block;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -245,12 +261,17 @@ img {
 }
 
 /* --------------------------------Футер іконки-------------------------------- */
+.join-list-item {
+  list-style: none;
+}
+
 .join-list-item > a {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
-  padding: 12px;
-
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
@@ -388,10 +409,6 @@ img {
   gap: 10px;
 }
 
-.join-list-item {
-  list-style: none;
-}
-
 /* ----------------------------------------Прихований контент---------------------------------------- */
 .visually-hidden {
   position: absolute;
@@ -463,15 +480,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
-}
-
-.icon-advantage {
-  width: 270px;
-  height: 120px;
-  padding: 25px 100px;
-  margin-bottom: 30px;
-  background: #f5f4fa;
-  border-radius: 4px;
 }
 
 .secondary-title {
